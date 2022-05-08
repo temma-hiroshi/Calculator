@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+  <body>
+    <div id ="result">0</div><br>
+
+    <button onclick="clickbutton(7)">7</button>
+    <button onclick="clickbutton(8)">8</button>
+    <button onclick="clickbutton(9)">9</button>
+    <button onclick="clickbutton('+')">+</button><br>
+
+    <button onclick="clickbutton(4)">4</button>
+    <button onclick="clickbutton(5)">5</button>
+    <button onclick="clickbutton(6)">6</button>
+    <button onclick="clickbutton('-')">-</button><br>
+
+    <button onclick="clickbutton(1)">1</button>
+    <button onclick="clickbutton(2)">2</button>
+    <button onclick="clickbutton(3)">3</button>
+    <button onclick="clickbutton('*')">*</button><br>
+
+    <button id="zero"  onclick="clickbutton(0)">0</button>
+    <button id="dot"   onclick="clickbutton('.')">.</button>
+    <button            onclick="clickbutton('/')">/</button><br>
+
+    <button id="AC"    onclick="clickbutton('AC')">AC</button>
+    <button id="equal" onclick="clickbutton('=')">=</button>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
